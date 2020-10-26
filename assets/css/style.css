@@ -88,7 +88,7 @@ header img
 {
     width: 210px;
     height: 20px;
-    margin: 0 70px 0 100px;
+    margin: 0 80px 0 100px;
     padding: 12px;
     border-radius: 22px;
     text-align: center;
@@ -230,7 +230,8 @@ h2
 {
     background-color: rgb(248, 248, 248);
     margin-top: -52px;
-    border-radius: 42px;
+    border-top-left-radius: 42px;
+    border-top-right-radius: 42px;
 }
 .menu h2
 {
@@ -243,6 +244,96 @@ h2
 {
     margin: -55px 0 0 340px;
     font-size: 25px;
+}
+
+/* STARTERS, DISHES, DESSERTS -------------------------------------------------------------*/
+
+.menu_cards
+{
+    font-family: "Roboto", sans-serif;
+    padding: 20px 0 0 20px;
+}
+.menu_cards h3
+{
+    font-weight: lighter;
+}
+.border
+{
+    border-bottom: 3px solid #99E2D0;
+    width: 40px;
+    margin-top: -15px;
+}
+.starters_cards, .dishes_cards, .desserts_cards
+{
+    display: flex;
+    flex-direction: column;
+    width: 360px;
+    height: 60px;
+    background-color: white;
+    border-radius: 18px;
+    box-shadow: 4px 4px 16px #c4c0c0;
+    margin: 20px 0 20px 0;
+}
+.starters h4, .dishes h4, .desserts h4
+{
+    padding: 0 0 0 15px;
+    margin-top: 13px;
+}
+.starters h5, .dishes h5, .desserts h5
+{
+    margin: -18px 0 0 15px;
+    font-size: 0.9em;
+    font-weight: lighter;
+}
+.starters p, .dishes p, .desserts p
+{
+    padding-left: 310px;
+    margin-top: -21px;
+}
+.dishes_cards_bigger
+{
+    display: flex;
+    flex-direction: column;
+    width: 360px;
+    height: 80px;
+    background-color: white;
+    border-radius: 18px;
+    box-shadow: 4px 4px 16px #c4c0c0;
+    margin: 20px 0 20px 0;
+}
+.dishes_cards_bigger h4
+{
+    padding-right: 100px;
+}
+.dishes_cards_bigger h5
+{
+    padding-right: 100px;
+}
+
+/* ORDER BUTTON MENU PAGES -------------------------------------------------------------*/
+
+aside
+{
+    font-family: "Roboto", sans-serif;
+    background-color: rgb(248, 248, 248);
+    padding-bottom: 30px;
+}
+.order_button
+{
+    width: 160px;
+    height: 20px;
+    margin: 40px 80px 40px 110px;
+    padding: 10px;
+    border-radius: 22px;
+    text-align: center;
+    color: white;
+    background: linear-gradient(to bottom, #FF79DA 2%, #9356DC  120%);
+}
+.order_button h5
+{
+    margin-top: 1px;
+    font-size: 1em;
+    font-weight: bolder;
 }
 /* FOOTER -------------------------------------------------------------*/
 
