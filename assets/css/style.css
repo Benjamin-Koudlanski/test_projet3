@@ -1,0 +1,222 @@
+html, body
+{
+    width: auto;
+    height: auto;
+    margin: auto;
+}
+
+/* HEADER -------------------------------------------------------------*/
+
+header
+{
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;  
+    box-shadow: 1px 1px 6px grey;
+}
+header img
+{
+    width: 175px;
+    height: 30px;
+    margin-bottom: -10px;
+}
+
+/* SECTION WELCOME -------------------------------------------------------------*/
+
+.welcome
+{
+    font-family: 'Roboto', sans-serif;
+}
+.city
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #F2F2F2;
+}
+.city i
+{
+    padding-top: 18px;
+}
+.city p
+{
+    padding-left: 10px;
+
+}
+.explore
+{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 50px;
+    background-color: rgb(248, 248, 248);
+}
+.explore h1
+{
+    text-align: center;
+    padding: 10px 40px 0 40px;
+    font-size: 1.6em;
+}
+.explore p
+{
+    text-align: center;
+    font-weight: lighter;
+    margin-top: -10px;
+    padding: 0 20px 10px 20px;
+    font-size: 1.2em;
+}
+.explore a
+{
+    text-decoration: none;
+}
+.explore_button
+{
+    width: 210px;
+    height: 20px;
+    margin: 0 80px 0 80px;
+    padding: 12px;
+    border-radius: 22px;
+    text-align: center;
+    color: white;
+    background: linear-gradient(to bottom, #FF79DA 2%, #9356DC  120%);
+}
+
+/* SECTION HOW_IS_WORK -------------------------------------------------------------*/
+
+.how_is_work
+{
+    font-family: "Roboto", sans-serif;
+    padding: 10px 15px 30px 30px;
+    background-color: white;
+}
+h2
+{
+    margin-left: -30px;
+    padding: 20px 0 0 20px;
+}
+.number_one, .number_two
+{
+    display: flex;
+    padding: 10px 0 10px 0;
+    margin-top: 30px;
+    background-color: rgb(248, 248, 248);
+    border-radius: 20px;
+    box-shadow: 1px 1px 10px #dadada;
+}
+.number_one h3, .number_two h3, .number_three h3
+{
+    width: 25px;
+    height: 18px;
+    padding: 4px 0 2px 0;
+    margin-left: -14px;
+    font-size: 0.9em;
+    font-weight: bold;
+    text-align: center;
+    background-color: #9356DC;
+    color: white;
+    border-radius: 15px;
+}
+.number_one i, .number_two i, .number_three i
+{
+    padding: 16px;
+    font-size: 20px;
+}
+.number_one p, .number_two p, .number_three p
+{
+    padding-left: 10px;
+}
+.number_three
+{
+    display: flex;
+    padding: 10px 0 10px 0;
+    margin-top: 30px;
+    background-color: #f2d6ff;
+    border-radius: 20px;
+    box-shadow: 1px 1px 10px #dadada;
+}
+.number_three i
+{
+    color: #9356DC;
+}
+
+/* SECTION RESTAURANTS -------------------------------------------------------------*/
+
+.restaurants
+{
+    font-family: "Roboto", sans-serif;
+    padding: 10px 0 30px 30px;
+    background-color: rgb(248, 248, 248);
+}
+.restaurants_box
+{
+    display: flex;
+    flex-direction: column;
+    margin-left: -10px;
+}
+.restaurants_cards
+{
+    display: flex;
+    flex-direction: column;
+    width: 335px;
+    height: 300px;
+}
+.restaurants_cards img
+{
+    width: 335px;
+    height: 190px;
+    margin: -16px 0 0 -40px;
+    border-bottom: 80px solid white;
+    border-radius: 18px;
+    box-shadow: 5px 5px 21px #c4c0c0;
+}
+.restaurants_cards h2
+{
+    width: 60px;
+    height: 1px;
+    font-size: 0.9em;
+    font-weight: bold;
+    margin: -275px 0 0 242px;
+    padding: 7px 7px 22px 12px;
+    color: #30a15f;
+    background-color: #99E2D0;
+    border-radius: 3px;
+}
+.restaurants_cards h4
+{
+    font-size: 1.2em;
+    padding: 135px 0 0 10px;
+}
+.restaurants_cards p
+{
+    font-size: 1.1em;
+    font-weight: lighter;
+    margin: -20px 0 0 10px;
+}
+.heart
+{
+    font-size: 25px;
+    margin: -50px 0 0 280px;
+}
+
+/* FOOTER -------------------------------------------------------------*/
+
+footer
+{
+    width: auto;
+    height: auto;
+    background-color: rgb(45, 45, 45);
+    padding: 20px 0 20px 0;
+    color: white;
+    display: flex;
+}
+.footer h1
+{
+    font-family: 'Shrikhand', cursive;
+    font-size: 1.2em;
+    margin-top: -5px;
+    padding: 0 0 0 25px;
+}
+.footer ul
+{
+    list-style-type: none;
+}
